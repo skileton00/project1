@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.block-a {
+    width: 100%;
+    height: 400px;
+    background-color: #f0f0f0; /* Нейтральний фон для наочності */
+    color: blue;
+    position: relative;
+}
+
+.block-b {
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    margin: 0 auto;
+    position: relative;
+}
+
+.block-c {
+    width: 110px;
+    height: 100px;
+    background-color: #fff; /* Білий фон для контрасту */
+    color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.block-d {
+    width: 80px;
+    height: 20px;
+    background-color: #333;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block-a p{
+    margin-left: 10px;
+    padding-top: 10px;
+}
